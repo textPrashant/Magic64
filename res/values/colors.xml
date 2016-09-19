@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="background">#60ffffff</color>
+    <color name="view_background">#ffe6f0ff</color>
+    <color name="view_hilite">#ffffffff</color>
+    <color name="view_light">#64c6d4ef</color>
+    <color name="view_dark">#6456648f</color>
+    <color name="view_foreground">#ff996600</color>
+    <color name="view_def_foreground">#ff3366ff</color>
+    <color name="view_moveKiller">#64ff0000</color>
+    <color name="view_moveNormal">#643D993D</color>
+    <color name="view_moveCheck">#64CC00FF</color>
+    <color name="view_selected">#FFBD5C</color>
+    <color name="view_makeMove">#6400ff80</color>
+        <color name="view_black">#B2E0F0</color>
+        <color name="view_white">#FFFFFF</color>
+        
+    <!-- solved puzzle -->
+    <color name="view_solved_background">#ffe6f0ff</color>
+    <color name="view_solved_foreground_correct">#ff347C17</color>
+    <color name="view_solved_foreground_incorrect">#ffFF0000</color>
+    <color name="view_solved_foreground_na">#ff43BFC7</color>
+    
+    
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="true"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    android:padding="15dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dip"
+            android:text="@string/main_title"
+            android:textColorHighlight="@android:color/white"
+            android:textColor="@android:color/black"
+            android:textSize="24.5sp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:stretchColumns="*" >
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/continue_button"
+                    android:drawableTop="@drawable/ic_conti"
+                                        android:typeface="monospace"
+                    android:text="@string/continue_label"
+                     />
+
+                <Button
+                    android:id="@+id/new_button"
+                    android:drawableTop="@drawable/ic_play"
+                    android:text="@string/new_game_label"
+                    android:typeface="monospace" />
+            </TableRow>
+
+            <TableRow>
+
+                
+                <Button
+                    android:id="@+id/open_button"
+                    android:drawableTop="@drawable/open40"
+                    android:text="@string/open_label"
+                    android:typeface="monospace" />
+                
+                <Button
+                    android:id="@+id/settings_button"
+                    android:drawableTop="@drawable/ic_settings"
+                    android:text="@string/settings_label"
+                    android:typeface="monospace" />
+            </TableRow>
+                <Button
+                    android:id="@+id/about_button"
+                    android:drawableTop="@drawable/ic_about"
+                    android:text="@string/about_label"
+                    android:typeface="monospace" />
+                
+            
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

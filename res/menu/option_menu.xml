@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/gameSave"
+        android:icon="@drawable/save32"
+        android:title="Save Game"
+        android:titleCondensed="Save">
+    </item>
+    <item
+        android:id="@+id/gameOpen"
+        android:icon="@drawable/open32"
+        android:title="Open Game"
+        android:titleCondensed="Open">
+    </item>
+    <item
+        android:id="@+id/secure_connect_scan"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/secure_connect"/>
+    <item
+        android:id="@+id/insecure_connect_scan"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/insecure_connect"/>
+    <item
+        android:id="@+id/discoverable"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="@string/discoverable"/>
+
+</menu>

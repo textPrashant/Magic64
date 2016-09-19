@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Magic64Activity!</string>
+    <string name="app_name">Magic64</string>
+    <string name="main_title">Chess</string>
+    <string name="continue_label">Continue</string> 
+    <string name="chooser_title">Choose a pice</string> 
+    <string name="new_game_label">New Game</string>
+    <string name="about_label">About</string>
+    <string name="settings_label">Settings</string>
+    <string name="open_label">Open Game</string>
+    <string name="settings_title">Chess settings</string>
+    <string name="open_title">Open game</string>
+    <string name="exit_label">Exit</string>
+    <string name="about_title">About Chess</string>
+    <string name="about_text">\
+Chess is a two-player board game played on a chessboard, a square-checkered board with 64 squares arranged in an eight-by-eight grid. It is one of the world\'s most popular games, played by millions of people worldwide at home, in clubs, online, by correspondence, and in tournaments.
+Each player begins the game with sixteen pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns, each of these types of pieces moving differently. Pieces are used to attack and capture the opponent\'s pieces. The object of the game is to \'checkmate\' the opponent\'s king by placing it under an inescapable threat of capture. In addition to checkmate, the game can be won by the voluntary resignation of one\'s opponent, which may occur when too much material is lost, or if checkmate appears unavoidable. A game may also result in a draw in several ways, where neither player wins.</string>
+    <string name="hints_title">Hints</string>
+    <string name="hints_summary">Show hints during play</string>
+<string name="border_title">ChessBoard Border</string>
+    <string name="border_summary">Show Border during play</string>
+   
+   <string name="statusbar_title">Status Bar</string>
+    <string name="statusbar_summary">Show Status Bar during play</string>
+    
+    <string name="density_title">Icon (Piece Desity)</string>
+    <string name="density_summary">Icons desity to display (MIN-120, MAX-400)</string>
+    
+    
+    
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+    
+    
+</resources>

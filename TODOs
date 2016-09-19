@@ -1,0 +1,31 @@
+===================
+  TODOs
+===================
+  1. MUST
+   b. Check mate. 
+   c. castling
+  	
+  2. Put a status bar
+   a. timer for each user
+   c. undo, re-do
+
+ 4. BT connectivity Play via blue-tooth
+ 
+===================
+  DONE
+===================
+  
+  1.f. Restrict the user to see moves of opponent or user can only see his moves not opponents move.
+  1.a. check.
+  1.e. if pawn reaches opponents home, than it will convert into queen/bishop/rook/knight/pawn.
+  1.d. chess L-shape boarder
+  
+  5.a Piece density preference.
+
+  2. Put a status bar
+  2.b. who's turn.
+  2.d. show last moves.  
+  
+  3. provide a menu
+   a. save game.
+   b. open game. 

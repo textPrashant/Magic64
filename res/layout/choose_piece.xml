@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chosser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/upper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chosser"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnQueen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/black_queen"
+            android:contentDescription="Queen" />
+
+        <ImageButton
+            android:id="@+id/btnRook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/black_rook"
+            android:contentDescription="Rook" />
+
+        <ImageButton
+            android:id="@+id/btnPawn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/black_pawn"
+            android:contentDescription="Pawn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upper"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnKnight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/black_knight"
+            android:contentDescription="Knight" />
+
+        <ImageButton
+            android:id="@+id/btnBishop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/black_bishop"
+            android:contentDescription="Bishop" />
+    </LinearLayout>
+
+</RelativeLayout>
